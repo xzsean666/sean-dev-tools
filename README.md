@@ -4,6 +4,8 @@ GitHub Pages site for **Sean Dev Tools** (Application Home Page & Privacy Policy
 
 - **Home Page**: https://xzsean666.github.io/sean-dev-tools/
 - **Privacy Policy**: https://xzsean666.github.io/sean-dev-tools/privacy
+- **Terms of Service**: https://xzsean666.github.io/sean-dev-tools/terms
+- **Authorized Domain**: `xzsean666.github.io`
 
 ## Google Search Console Verification
 
