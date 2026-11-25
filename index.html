@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sean Dev Tools</title>
+  <!-- Google Search Console: paste your <meta name="google-site-verification" content="..." /> tag below -->
+  <style>
+    :root {
+      --bg: #0f172a;
+      --card: #1e293b;
+      --border: #334155;
+      --text: #f8fafc;
+      --muted: #94a3b8;
+      --accent: #38bdf8;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+    .container {
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 56px 24px;
+    }
+    header {
+      margin-bottom: 32px;
+    }
+    h1 {
+      margin: 0 0 12px;
+      font-size: 2rem;
+      letter-spacing: -0.02em;
+    }
+    .subtitle {
+      margin: 0;
+      color: var(--muted);
+      font-size: 1.05rem;
+    }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 24px;
+      margin-bottom: 20px;
+    }
+    h2 {
+      margin: 0 0 12px;
+      font-size: 1.2rem;
+    }
+    ul {
+      margin: 0;
+      padding-left: 20px;
+      color: var(--muted);
+    }
+    li + li {
+      margin-top: 8px;
+    }
+    a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    footer {
+      margin-top: 36px;
+      padding-top: 20px;
+      border-top: 1px solid var(--border);
+      color: var(--muted);
+      font-size: 0.9rem;
+      display: flex;
+      gap: 16px;
+      flex-wrap: wrap;
+    }
+  </style>
+</head>
+<body>
+  <main class="container">
+    <header>
+      <h1>Sean Dev Tools</h1>
+      <p class="subtitle">
+        Personal developer utilities, analytics workflows, and productivity integrations built and maintained by Sean.
+      </p>
+    </header>
+
+    <section class="card">
+      <h2>About Sean Dev Tools</h2>
+      <p>
+        Sean Dev Tools provides lightweight developer utilities and automation integrations that connect with authorized third-party services, including Google APIs, strictly on behalf of the authenticated user.
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>Key Principles</h2>
+      <ul>
+        <li>Accesses only the permissions explicitly granted by the user during OAuth consent.</li>
+        <li>Uses authorized data solely to perform user-requested operations and reporting.</li>
+        <li>Never sells or transfers user data to third parties.</li>
+      </ul>
+    </section>
+
+    <footer>
+      <span>&copy; 2026 Sean Dev Tools</span>
+      <a href="./privacy">Privacy Policy</a>
+      <a href="https://github.com/xzsean666/sean-dev-tools" target="_blank" rel="noopener noreferrer">GitHub Repository</a>
+    </footer>
+  </main>
+</body>
+</html>
